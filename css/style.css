@@ -21,6 +21,11 @@ html {
   font-size: 62.5%;
   color-scheme: dark light;
 }
+@media only screen and (max-width: 31.25em) {
+  html {
+    font-size: 50%;
+  }
+}
 
 body {
   min-height: 100vh;

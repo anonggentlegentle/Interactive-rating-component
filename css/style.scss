@@ -8,6 +8,8 @@
   --color-black: hsl(0, 0%, 0%);
 }
 
+$bp-1: 31.25em; // 500px
+
 *,
 *::after,
 *::before {
@@ -20,6 +22,10 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
   color-scheme: dark light;
+
+  @media only screen and (max-width: $bp-1) {
+    font-size: 50%;
+  }
 }
 
 body {
